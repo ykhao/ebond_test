@@ -1,0 +1,16 @@
+{
+  "name": "node-layer",
+  "version": "0.1.0",
+  "description": "node layer of ebondmed platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yezx@ebondmed.com",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "ioredis": "^3.2.2",
+    "koa": "^2.5.2",
+    "socket.io": "^2.1.1"
+  }
+}

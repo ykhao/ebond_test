@@ -1,0 +1,3 @@
+pip install pipreqs
+pipreqs ./
+python install -r requirements.txt
