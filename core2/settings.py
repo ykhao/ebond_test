@@ -90,13 +90,12 @@ WSGI_APPLICATION = 'core2.wsgi.application'
 
 DATABASES = {
     'default': {
-#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#        'NAME': 'core2_test',
-#        'USER': 'postgres',
-        # 'PASSWORD': 'qwe123',
-#        'PASSWORD': 'ebond',
-	'ENGINE': 'django.db.backends.sqlite3',
-	'NAME': 'core2db',
+	'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ebonddb',
+        'USER': 'ebondmed',
+        'PASSWORD': 'Yibangyiyao1234',
+	'HOST':'rm-m5e0zmmttsd0dd366.mysql.rds.aliyuncs.com',
+        'PORT':'3306'
     }
 }
 
