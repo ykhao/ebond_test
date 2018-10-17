@@ -44,8 +44,8 @@ INSTALLED_APPS = [
     # Third-party apps
     'rest_framework',
     'django_filters',
-    'multiselectfield',
-    'push_notifications',
+    #'multiselectfield',
+    #'push_notifications',
     # 'autofixture',
     # Internal apps
     'data_api',
