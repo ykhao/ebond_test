@@ -6,7 +6,7 @@ from django.utils.translation import ugettext_lazy as _
 
 from utils.crypto import string2md5
 from data_api.models import Patient, Practitioner, Hospital, MedicalRecord
-from multiselectfield import MultiSelectField
+#from multiselectfield import MultiSelectField
 
 
 def upload_dir_path(instance, filename):
